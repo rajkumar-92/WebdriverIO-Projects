@@ -1,0 +1,240 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1690955815242' stop='1690955855960'>
+    <name>Demo.spec-Validate FO End to End Flight Booking Scenario</name>
+    <title>Demo.spec-Validate FO End to End Flight Booking Scenario</title>
+    <test-cases>
+        <test-case start='1690955815243' status='passed' stop='1690955828803'>
+            <name>Validate Login and Flight Search</name>
+            <title>Validate Login and Flight Search</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-115.0.5790.110'/>
+            </parameters>
+            <steps>
+                <step start='1690955815276' status='undefined'>
+                    <name>Landing Page</name>
+                    <title>Landing Page</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1690955815626' status='passed' stop='1690955815626'>
+                            <name>Clicking on departure airport</name>
+                            <title>Clicking on departure airport</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690955816491' status='passed' stop='1690955816491'>
+                            <name>Selecting departure airport: BRU</name>
+                            <title>Selecting departure airport: BRU</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690955816640' status='passed' stop='1690955816640'>
+                            <name>Clicking on destination airport</name>
+                            <title>Clicking on destination airport</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690955817374' status='passed' stop='1690955817374'>
+                            <name>Selecting destination airport: OUD</name>
+                            <title>Selecting destination airport: OUD</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690955819376' status='passed' stop='1690955819376'>
+                            <name>Selecting From date: 20</name>
+                            <title>Selecting From date: 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690955824368' status='passed' stop='1690955824368'>
+                            <name>Selecting To date: 24</name>
+                            <title>Selecting To date: 24</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690955824787' status='passed' stop='1690955824787'>
+                            <name>Selecting number of passengers</name>
+                            <title>Selecting number of passengers</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690955825106' status='passed' stop='1690955825106'>
+                            <name>Selecting the children ages: 4,0</name>
+                            <title>Selecting the children ages: 4,0</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690955828802' status='passed' stop='1690955828802'>
+                            <name>Clicking on search button</name>
+                            <title>Clicking on search button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1690955828804' status='passed' stop='1690955836626'>
+            <name>Verify Flight Search Results</name>
+            <title>Verify Flight Search Results</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-115.0.5790.110'/>
+            </parameters>
+            <steps>
+                <step start='1690955828804' status='undefined'>
+                    <name>Flight Selection Page</name>
+                    <title>Flight Selection Page</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1690955829163' status='passed' stop='1690955829164'>
+                            <name>Selecting Outbound flight from the available list</name>
+                            <title>Selecting Outbound flight from the available list</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690955829321' status='passed' stop='1690955829321'>
+                            <name>Selecting cheapest flight from the Outbound Flights</name>
+                            <title>Selecting cheapest flight from the Outbound Flights</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690955829452' status='passed' stop='1690955829452'>
+                            <name>Selecting Return flight from the available list</name>
+                            <title>Selecting Return flight from the available list</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690955830215' status='passed' stop='1690955830215'>
+                            <name>Selecting cheapest flight from the Return Flights</name>
+                            <title>Selecting cheapest flight from the Return Flights</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690955836625' status='passed' stop='1690955836625'>
+                            <name>Clicking on continue button</name>
+                            <title>Clicking on continue button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1690955836626' status='passed' stop='1690955843308'>
+            <name>Adding Flight Amendments and validate price</name>
+            <title>Adding Flight Amendments and validate price</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-115.0.5790.110'/>
+            </parameters>
+            <steps>
+                <step start='1690955836626' status='undefined'>
+                    <name>Flight Seat &amp; Baggage Page</name>
+                    <title>Flight Seat &amp; Baggage Page</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1690955843308' status='passed' stop='1690955843308'>
+                            <name>Clicking on Continue Button</name>
+                            <title>Clicking on Continue Button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1690955843308' status='passed' stop='1690955846879'>
+            <name>Adding Passenger Insurance</name>
+            <title>Adding Passenger Insurance</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-115.0.5790.110'/>
+            </parameters>
+            <steps>
+                <step start='1690955843308' status='undefined'>
+                    <name>Flight Extras:Insurance Selection Page</name>
+                    <title>Flight Extras:Insurance Selection Page</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1690955846879' status='passed' stop='1690955846879'>
+                            <name>Clicking on Continue Button</name>
+                            <title>Clicking on Continue Button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1690955846880' status='broken' stop='1690955855959'>
+            <name>Verify Passenger Details</name>
+            <title>Verify Passenger Details</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-115.0.5790.110'/>
+                <parameter kind='argument' name='browser' value='chrome-115.0.5790.110'/>
+            </parameters>
+            <steps>
+                <step start='1690955846880' status='broken' stop='1690955855814'>
+                    <name>Flight Passenger Details Page</name>
+                    <title>Flight Passenger Details Page</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='7f97934c-be0a-41be-93a1-bf3105c5022d-attachment.png' type='image/png' size='56327'/>
+                    </attachments>
+                    <steps>
+                        <step start='1690955850235' status='passed' stop='1690955850235'>
+                            <name>Input Adult1 Information</name>
+                            <title>Input Adult1 Information</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690955855362' status='passed' stop='1690955855362'>
+                            <name>Inputing Child1 Information</name>
+                            <title>Inputing Child1 Information</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='92620f1a-72a4-4c02-9d3f-2a61b2f5166d-attachment.png' type='image/png' size='56326'/>
+            </attachments>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'setValue')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'setValue')
+                    at passengerInformation.selectchild1_DOB (D:\POC's\MobileAutomationPOC\WebApplication\Pages\TUIPassengerDetails.page.js:169:39)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Context.&lt;anonymous> (D:\POC's\MobileAutomationPOC\WebApplication\Tests\TUIDemo.test.js:83:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

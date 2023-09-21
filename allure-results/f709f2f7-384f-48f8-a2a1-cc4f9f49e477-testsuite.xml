@@ -1,0 +1,88 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1690870538565' stop='1690870546452'>
+    <name>Interceptor Test Demo</name>
+    <title>Interceptor Test Demo</title>
+    <test-cases>
+        <test-case start='1690870538565' status='passed' stop='1690870546452'>
+            <name>Should be able to capture search requests</name>
+            <title>Should be able to capture search requests</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-115.0.5790.110'/>
+            </parameters>
+            <steps>
+                <step start='1690870546450' status='passed' stop='1690870546451'>
+                    <name>mobile</name>
+                    <title>mobile</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1690870546451' status='passed' stop='1690870546451'>
+                    <name>mobile</name>
+                    <title>mobile</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1690870546451' status='passed' stop='1690870546451'>
+                    <name>mobile under 10000</name>
+                    <title>mobile under 10000</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1690870546451' status='passed' stop='1690870546451'>
+                    <name>mobile under 1000+0</name>
+                    <title>mobile under 1000+0</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1690870546451' status='passed' stop='1690870546451'>
+                    <name>mobile stand</name>
+                    <title>mobile stand</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1690870546451' status='passed' stop='1690870546451'>
+                    <name>mobile under 15000</name>
+                    <title>mobile under 15000</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1690870546451' status='passed' stop='1690870546451'>
+                    <name>mobile under 20000</name>
+                    <title>mobile under 20000</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1690870546451' status='passed' stop='1690870546451'>
+                    <name>mobile phone</name>
+                    <title>mobile phone</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1690870546451' status='passed' stop='1690870546451'>
+                    <name>mobile under 7000</name>
+                    <title>mobile under 7000</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1690870546451' status='passed' stop='1690870546451'>
+                    <name>mobile holder for car</name>
+                    <title>mobile holder for car</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1690870546451' status='passed' stop='1690870546451'>
+                    <name>mobile stand for table</name>
+                    <title>mobile stand for table</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,219 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1690956056578' stop='1690956109298'>
+    <name>Demo.spec-Validate FO End to End Flight Booking Scenario</name>
+    <title>Demo.spec-Validate FO End to End Flight Booking Scenario</title>
+    <test-cases>
+        <test-case start='1690956056579' status='passed' stop='1690956074443'>
+            <name>Validate Login and Flight Search</name>
+            <title>Validate Login and Flight Search</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-115.0.5790.110'/>
+            </parameters>
+            <steps>
+                <step start='1690956056651' status='undefined'>
+                    <name>Landing Page</name>
+                    <title>Landing Page</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1690956057275' status='passed' stop='1690956057275'>
+                            <name>Clicking on departure airport</name>
+                            <title>Clicking on departure airport</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690956058376' status='passed' stop='1690956058376'>
+                            <name>Selecting departure airport: BRU</name>
+                            <title>Selecting departure airport: BRU</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690956058686' status='passed' stop='1690956058686'>
+                            <name>Clicking on destination airport</name>
+                            <title>Clicking on destination airport</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690956060161' status='passed' stop='1690956060161'>
+                            <name>Selecting destination airport: OUD</name>
+                            <title>Selecting destination airport: OUD</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690956062749' status='passed' stop='1690956062749'>
+                            <name>Selecting From date: 20</name>
+                            <title>Selecting From date: 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690956068702' status='passed' stop='1690956068702'>
+                            <name>Selecting To date: 24</name>
+                            <title>Selecting To date: 24</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690956069396' status='passed' stop='1690956069396'>
+                            <name>Selecting number of passengers</name>
+                            <title>Selecting number of passengers</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690956070165' status='passed' stop='1690956070165'>
+                            <name>Selecting the children ages: 4,0</name>
+                            <title>Selecting the children ages: 4,0</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690956074442' status='passed' stop='1690956074442'>
+                            <name>Clicking on search button</name>
+                            <title>Clicking on search button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1690956074443' status='broken' stop='1690956075523'>
+            <name>Verify Flight Search Results</name>
+            <title>Verify Flight Search Results</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-115.0.5790.110'/>
+            </parameters>
+            <steps>
+                <step start='1690956074443' status='broken' stop='1690956075522'>
+                    <name>Flight Selection Page</name>
+                    <title>Flight Selection Page</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='da0aa8aa-386e-4be4-9bb8-eacf63720cb6-attachment.png' type='image/png' size='116569'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'split')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'split')
+                    at flightSearchResults.OutBound_ListOfFlights (D:\POC's\MobileAutomationPOC\WebApplication\Pages\TUISearchResult.page.js:36:71)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Context.&lt;anonymous> (D:\POC's\MobileAutomationPOC\WebApplication\Tests\TUIDemo.test.js:38:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1690956075523' status='broken' stop='1690956085761'>
+            <name>Adding Flight Amendments and validate price</name>
+            <title>Adding Flight Amendments and validate price</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-115.0.5790.110'/>
+            </parameters>
+            <steps>
+                <step start='1690956075524' status='broken' stop='1690956085761'>
+                    <name>Flight Seat &amp; Baggage Page</name>
+                    <title>Flight Seat &amp; Baggage Page</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='d02b3186-4a4a-4eef-b359-1274c6519975-attachment.png' type='image/png' size='118067'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>waitUntil condition timed out after 10000ms</message>
+                <stack-trace>Error: waitUntil condition timed out after 10000ms
+                    at D:\POC's\MobileAutomationPOC\node_modules\webdriverio\build\commands\browser\waitUntil.js:68:19
+                    at async Browser.wrapCommandFn (D:\POC's\MobileAutomationPOC\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Utility.waituntil_ForDisplayed (D:\POC's\MobileAutomationPOC\Utilities\Utility.js:82:9)
+                    at async flightExtras.clickContinueButtonOnSeatBaggage (D:\POC's\MobileAutomationPOC\WebApplication\Pages\TUIFlightOptions.page.js:117:13)
+                    at async Context.&lt;anonymous> (D:\POC's\MobileAutomationPOC\WebApplication\Tests\TUIDemo.test.js:55:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1690956085762' status='broken' stop='1690956095943'>
+            <name>Adding Passenger Insurance</name>
+            <title>Adding Passenger Insurance</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-115.0.5790.110'/>
+            </parameters>
+            <steps>
+                <step start='1690956085762' status='broken' stop='1690956095943'>
+                    <name>Flight Extras:Insurance Selection Page</name>
+                    <title>Flight Extras:Insurance Selection Page</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ff6db92d-c479-490b-b729-1fb864670a5c-attachment.png' type='image/png' size='118067'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element ("button[aria-label="extra options continue button"]") still not displayed after 10000ms</message>
+                <stack-trace>Error: element ("button[aria-label="extra options continue button"]") still not displayed after 10000ms
+                    at D:\POC's\MobileAutomationPOC\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at async Element.wrapCommandFn (D:\POC's\MobileAutomationPOC\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (D:\POC's\MobileAutomationPOC\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (D:\POC's\MobileAutomationPOC\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (D:\POC's\MobileAutomationPOC\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (D:\POC's\MobileAutomationPOC\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (D:\POC's\MobileAutomationPOC\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async passengerInsurance.clickContinueButtonOnInsurance (D:\POC's\MobileAutomationPOC\WebApplication\Pages\TUIExtraOptions.page.js:73:9)
+                    at async Context.&lt;anonymous> (D:\POC's\MobileAutomationPOC\WebApplication\Tests\TUIDemo.test.js:62:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1690956095943' status='broken' stop='1690956109298'>
+            <name>Verify Passenger Details</name>
+            <title>Verify Passenger Details</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-115.0.5790.110'/>
+                <parameter kind='argument' name='browser' value='chrome-115.0.5790.110'/>
+            </parameters>
+            <steps>
+                <step start='1690956095944' status='broken' stop='1690956109142'>
+                    <name>Flight Passenger Details Page</name>
+                    <title>Flight Passenger Details Page</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='f84598ca-c3eb-4a2c-89f3-c0e8ce182150-attachment.png' type='image/png' size='118067'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='a86885c8-7380-4404-8d61-35032f129a6b-attachment.png' type='image/png' size='118067'/>
+            </attachments>
+            <failure>
+                <message>Can't call setValue on element with selector "#FIRSTNAMEADULT1" because element wasn't found</message>
+                <stack-trace>Error: Can't call setValue on element with selector "#FIRSTNAMEADULT1" because element wasn't found
+                    at implicitWait (D:\POC's\MobileAutomationPOC\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at async Element.elementErrorHandlerCallbackFn (D:\POC's\MobileAutomationPOC\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at async Element.wrapCommandFn (D:\POC's\MobileAutomationPOC\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async passengerInformation.adult1_firstName (D:\POC's\MobileAutomationPOC\WebApplication\Pages\TUIPassengerDetails.page.js:10:9)
+                    at async Context.&lt;anonymous> (D:\POC's\MobileAutomationPOC\WebApplication\Tests\TUIDemo.test.js:67:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

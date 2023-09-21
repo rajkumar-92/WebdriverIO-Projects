@@ -1,0 +1,143 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1690877075802' stop='1690877138963'>
+    <name>POC Demo on TUI Website</name>
+    <title>POC Demo on TUI Website</title>
+    <test-cases>
+        <test-case start='1690877075802' status='broken' stop='1690877138962'>
+            <name>Two way flight booking</name>
+            <title>Two way flight booking</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-115.0.5790.110'/>
+                <parameter kind='argument' name='browser' value='chrome-115.0.5790.110'/>
+            </parameters>
+            <steps>
+                <step start='1690877075809' status='broken' stop='1690877135828'>
+                    <name>Landing Page</name>
+                    <title>Landing Page</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1690877076146' status='passed' stop='1690877076146'>
+                            <name>Clicking on Choose airport</name>
+                            <title>Clicking on Choose airport</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690877076885' status='passed' stop='1690877076885'>
+                            <name>Selecting departure airport: CRL</name>
+                            <title>Selecting departure airport: CRL</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690877077065' status='passed' stop='1690877077065'>
+                            <name>Clicking on Choose a destination</name>
+                            <title>Clicking on Choose a destination</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690877079202' status='passed' stop='1690877079202'>
+                            <name>Selecting destination airport: NBE</name>
+                            <title>Selecting destination airport: NBE</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690877080746' status='passed' stop='1690877080746'>
+                            <name>Selecting From date</name>
+                            <title>Selecting From date</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690877085479' status='passed' stop='1690877085479'>
+                            <name>Selecting ToDate</name>
+                            <title>Selecting ToDate</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690877090003' status='passed' stop='1690877090003'>
+                            <name>Clicking on search button</name>
+                            <title>Clicking on search button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690877094015' status='broken' stop='1690877135828'>
+                            <name>Flight Selection Page</name>
+                            <title>Flight Selection Page</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1690877102799' status='passed' stop='1690877102799'>
+                                    <name>Clicking on continue button</name>
+                                    <title>Clicking on continue button</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1690877105806' status='broken' stop='1690877135828'>
+                                    <name>Flight Seat &amp; Baggage Page</name>
+                                    <title>Flight Seat &amp; Baggage Page</title>
+                                    <attachments/>
+                                    <steps>
+                                        <step start='1690877125789' status='passed' stop='1690877125789'>
+                                            <name>Clicking on Continue Button</name>
+                                            <title>Clicking on Continue Button</title>
+                                            <attachments/>
+                                            <steps/>
+                                        </step>
+                                        <step start='1690877125789' status='broken' stop='1690877135828'>
+                                            <name>Flight Extras:Insurance Selection Page</name>
+                                            <title>Flight Extras:Insurance Selection Page</title>
+                                            <attachments/>
+                                            <steps>
+                                                <step start='1690877126455' status='passed' stop='1690877126455'>
+                                                    <name>Selecting the Insurance type:I do not wish to insure my trip</name>
+                                                    <title>Selecting the Insurance type:I do not wish to insure my trip</title>
+                                                    <attachments/>
+                                                    <steps/>
+                                                </step>
+                                                <step start='1690877131117' status='passed' stop='1690877131117'>
+                                                    <name>Clicking on Continue Button</name>
+                                                    <title>Clicking on Continue Button</title>
+                                                    <attachments/>
+                                                    <steps/>
+                                                </step>
+                                                <step start='1690877134126' status='broken' stop='1690877135828'>
+                                                    <name>Flight Passenger Details Page</name>
+                                                    <title>Flight Passenger Details Page</title>
+                                                    <attachments/>
+                                                    <steps/>
+                                                </step>
+                                            </steps>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1690877137363' status='passed' stop='1690877137363'>
+                    <name>Inputing  Adult1 Information</name>
+                    <title>Inputing  Adult1 Information</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='00842785-7f46-4e06-8bff-e8cd290812dd-attachment.png' type='image/png' size='51221'/>
+            </attachments>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "POC Demo on TUI Website Two way flight booking" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (D:\POC's\MobileAutomationPOC\WebApplication\Tests\TUIDemo.test.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "POC Demo on TUI Website Two way flight booking" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (D:\POC's\MobileAutomationPOC\WebApplication\Tests\TUIDemo.test.js)
+                    at createTimeoutError (D:\POC's\MobileAutomationPOC\node_modules\mocha\lib\errors.js:498:15)
+                    at Runnable._timeoutError (D:\POC's\MobileAutomationPOC\node_modules\mocha\lib\runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (D:\POC's\MobileAutomationPOC\node_modules\mocha\lib\runnable.js:246:24)
+                    at listOnTimeout (node:internal/timers:564:17)
+                    at process.processTimers (node:internal/timers:507:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
